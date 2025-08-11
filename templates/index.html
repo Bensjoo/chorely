@@ -1,0 +1,5 @@
+{{ define "title" }}Home - Chorely{{ end }}
+
+{{ define "content" }}
+<h1 hx-get="/hello" hx-trigger="load" hx-swap="outerHTML">Loading...</h1>
+{{ end }}
